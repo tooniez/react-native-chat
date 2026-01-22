@@ -6381,8 +6381,13 @@ react-native-gesture-handler@~2.30.0:
     invariant "^2.2.4"
 
 "react-native-gifted-chat@link:..":
-  version "0.0.0"
-  uid ""
+  version "3.2.3"
+  dependencies:
+    "@expo/react-native-action-sheet" "^4.1.1"
+    "@types/lodash.isequal" "^4.5.8"
+    dayjs "^1.11.19"
+    lodash.isequal "^4.5.0"
+    react-native-zoom-reanimated "^1.4.10"
 
 react-native-is-edge-to-edge@^1.1.6, react-native-is-edge-to-edge@^1.2.1:
   version "1.2.1"
